@@ -5,7 +5,7 @@
     tools:context="th.ac.bsru.arngkhumhong.ramet.bsruservice.MainFragment">
 
   <!--Content-->
-    <LinearLayout
+1    <LinearLayout
         android:layout_margin="40dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -40,6 +40,9 @@
 
         <!--register-->
         <TextView
+            android:clickable="true"
+            android:id="@+id/txtRegister"
+            android:textColor="@color/colorAccent"
             android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
             android:textSize="18sp"
