@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <RadioGroup
-                android:id="@+id/regGender"
+                android:id="@+id/ragGender"
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -49,7 +49,7 @@
 
                 <!--Male-->
                 <RadioButton
-                    android:id="@+id/redMail"
+                    android:id="@+id/radMale"
                     android:layout_marginLeft="30dp"
                     android:text="Male"
                     android:layout_width="wrap_content"
@@ -57,7 +57,7 @@
 
                 <!--Female-->
                 <RadioButton
-                    android:id="@+id/redFeMail"
+                    android:id="@+id/radFeMale"
                     android:layout_marginLeft="50dp"
                     android:text="Female"
                     android:layout_width="wrap_content"
@@ -68,6 +68,7 @@
 
             <!--USer-->
             <EditText
+                android:id="@+id/edtUser"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 android:inputType="text"
@@ -77,6 +78,7 @@
 
             <!--Password-->
             <EditText
+                android:id="@+id/edtPassword"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 android:hint="Password"
