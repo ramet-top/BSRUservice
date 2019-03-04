@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="th.ac.bsru.arngkhumhong.ramet.bsruservice.MainActivity">
 
+    
   <!--Content of Fragment-->
     <FrameLayout
         android:id="@+id/layoutMainFragment"
