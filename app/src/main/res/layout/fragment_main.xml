@@ -51,6 +51,34 @@
             android:layout_height="wrap_content" />
 
 
-    </LinearLayout>
+<!--***************************************************************************-->
+
+
+        <LinearLayout
+            android:layout_margin="40dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"
+                android:onClick="true"
+                android:id="@+id/txtContent1"
+                android:text="Content1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="20dp"
+                android:onClick="true"
+                android:id="@+id/txtContent2"
+                android:text="Content2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+</LinearLayout>
 
 </FrameLayout>

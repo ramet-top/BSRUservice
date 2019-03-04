@@ -24,12 +24,15 @@ public class MainFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-    // Register Control
+    // Control
 
         registerControl();
+        content1Control();
+        content1Contro2();
 
     }   //Main Method
 
+    //register
     private void registerControl() {
         TextView textView = getView().findViewById(R.id.txtRegister);
         textView.setOnClickListener(new View.OnClickListener() {
@@ -46,6 +49,45 @@ public class MainFragment extends Fragment {
             }
         });
     }
+
+//    content1
+    private void content1Control() {
+    TextView textView = getView().findViewById(R.id.txtContent1);
+    textView.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            //  Replace Fragment
+            getActivity()
+                    .getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.layoutMainFragment, new Content1Fragment())
+                    .addToBackStack(null)
+                    .commit();
+
+        }
+    });
+}
+
+
+//    content2
+    private void content1Contro2() {
+    TextView textView = getView().findViewById(R.id.txtContent2);
+    textView.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            //  Replace Fragment
+            getActivity()
+                    .getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.layoutMainFragment, new Content2Fragment())
+                    .addToBackStack(null)
+                    .commit();
+
+        }
+    });
+}
+
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

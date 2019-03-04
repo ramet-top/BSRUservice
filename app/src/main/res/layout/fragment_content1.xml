@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="th.ac.bsru.arngkhumhong.ramet.bsruservice.Content1Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--Content-->
+  <LinearLayout
+    android:layout_margin="40dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--Logo-->
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+      <TextView
+          android:layout_marginTop="10dp"
+          android:layout_gravity="center_horizontal"
+          android:textSize="30sp"
+          android:text="Hello Content 1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+</FrameLayout>
